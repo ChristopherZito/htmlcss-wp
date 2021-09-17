@@ -1,0 +1,74 @@
+/* generali */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.debug::after {
+    content: "";
+    display: table;
+    clear: both
+    ;
+}
+
+#container {
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* header */
+
+header {
+    background-color: palevioletred;
+    height: 100px;
+}
+
+/* corpo pagina */
+
+/* box superiore */
+.boxup {
+    margin: 30px 0px;
+    /* regole di debug */
+    background-color: gold;
+    height: 400px;
+}
+
+/* box inferiore */
+.boxdown {
+    margin-bottom: 10px;
+    /* regole di debug */
+    background-color: rgba(0, 183, 255, 0.986);
+    /* height: 500px; */
+}
+
+.subtitle {
+    margin-bottom: 30px;
+    /* regole di debug */
+    background-color: rgba(0, 255, 242, 0.986);
+    height: 100px;
+}
+
+aside {
+    width: 15%;
+    float: left;
+    /* regole di debug */
+    background-color: rgba(0, 255, 242, 0.986);
+    height: 500px;
+}
+
+
+.middle {
+    width: 60%;
+    margin: 0px 5%;
+    float: left;
+     /* regole di debug */
+     background-color: rgba(0, 255, 242, 0.986);
+     height: 500px;
+    
+}
+
+footer {
+    background-color: indigo;
+    height: 50px;
