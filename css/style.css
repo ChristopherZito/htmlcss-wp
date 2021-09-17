@@ -13,6 +13,10 @@
     ;
 }
 
+body {
+    font-size: 16px;
+}
+
 #container {
     margin: 20px auto;
     width: 80%;
@@ -21,8 +25,21 @@
 /* header */
 
 header {
-    background-color: palevioletred;
-    height: 100px;
+   /*  background-color: palevioletred; */
+   /*  height: 100px; */
+}
+
+#logo {
+    height: 50px;
+    padding: 10px;
+    border-right: gray solid 1px;
+}
+
+header li, a {
+    display: inline-block;
+    color: gray;
+    text-decoration: none;
+    margin-right: 10px;
 }
 
 /* corpo pagina */
@@ -69,6 +86,13 @@ aside {
     
 }
 
-footer {
-    background-color: indigo;
-    height: 50px;
+footer div {
+   
+   /*  background-color: indigo; */
+    padding-left:50%;
+   /*  height: 50px;  */
+}
+
+#heart {
+    color: red;
+}
