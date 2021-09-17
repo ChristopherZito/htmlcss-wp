@@ -53,7 +53,7 @@ header li, a {
     height: 700px;
     background-size: 100%;
     background-repeat: no-repeat;
-    filter: opacity(75%);
+    filter: brightness(75%);
     border-radius: 10px;
     /* regole di debug */
     /* background-color: gold; */
@@ -62,7 +62,7 @@ header li, a {
 
 #title {
     color: white;
-    padding-top: 510px;
+    padding-top: 500px;
     padding-left: 50px;
 }
  #title div {
