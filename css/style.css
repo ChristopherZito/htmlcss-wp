@@ -24,10 +24,10 @@ body {
 
 /* header */
 
-header {
-   /*  background-color: palevioletred; */
-   /*  height: 100px; */
-}
+/* header {
+    background-color: palevioletred;
+    height: 100px;
+} */
 
 #logo {
     height: 50px;
@@ -46,11 +46,18 @@ header li, a {
 
 /* box superiore */
 .boxup {
+    background-image: url("../img/banner.jpg");
     margin: 30px 0px;
+    height: 700px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
     /* regole di debug */
-    background-color: gold;
-    height: 400px;
+    /* background-color: gold; */
+    /* height: 400px; */
 }
+
+
 
 /* box inferiore */
 .boxdown {
@@ -60,29 +67,31 @@ header li, a {
     /* height: 500px; */
 }
 
+
 .subtitle {
     margin-bottom: 30px;
     /* regole di debug */
-    background-color: rgba(0, 255, 242, 0.986);
-    height: 100px;
+    /* background-color: rgba(0, 255, 242, 0.986); */
+   /*  height: 100px; */
 }
 
 aside {
     width: 15%;
     float: left;
     /* regole di debug */
-    background-color: rgba(0, 255, 242, 0.986);
-    height: 500px;
+    /* background-color: rgba(0, 255, 242, 0.986); */
+    /* height: 500px; */
 }
+
 
 
 .middle {
     width: 60%;
     margin: 0px 5%;
     float: left;
-     /* regole di debug */
-     background-color: rgba(0, 255, 242, 0.986);
-     height: 500px;
+    /* regole di debug */
+    /*  background-color: rgba(0, 255, 242, 0.986); */
+    /* height: 500px; */
     
 }
 
